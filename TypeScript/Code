@@ -1,0 +1,10 @@
+function executer():void{
+    //Destructuring
+    let valores = ['Joao', 'ribeiro'];
+    let[nome, apelido] = valores;
+
+}
+
+function teste([nome, apelido]:[string,string]):string{
+    return `${nome} ${apelido}`;
+}
