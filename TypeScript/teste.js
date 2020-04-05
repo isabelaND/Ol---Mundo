@@ -1,6 +1,7 @@
 function Executar() {
-    apresentar('João');
+    apresentar('Joao');
 }
 function apresentar(nome) {
-    document.write("Nome:  " + nome + " ");
+    document.write(nome);
 }
+function newfunction() { }
